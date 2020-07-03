@@ -145,7 +145,7 @@ class AwesomeButtonState extends State<AwesomeButton> {
 
 
 
-
+//visuals
   @override
   Widget build(BuildContext context) {
   return new Scaffold(
