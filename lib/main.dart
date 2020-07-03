@@ -108,7 +108,7 @@ class AwesomeButtonState extends State<AwesomeButton> {
   @override
   void initState() {
   super.initState();
-
+//detect shakes
   ShakeDetector detector = ShakeDetector.autoStart(onPhoneShake: () {
   playLocalAsset();
   Vibration.vibrate(duration: 1000);
