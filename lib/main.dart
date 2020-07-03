@@ -95,7 +95,7 @@ class AwesomeButtonState extends State<AwesomeButton> {
 
 
 
-
+//word list
   int counter = 0;
   List<String> strings = ["Yes", "No", "I'm not sure", "Cheese", "Fortnite"];
   String displayedString = "";
